@@ -1,0 +1,71 @@
+.Home{
+    color: White;
+    background-image: url('bg3.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 30px;
+}
+.drop-down{
+    position: relative;
+    display: inline-block;
+}
+.drop-down-content{
+    display: none;
+    position: absolute;
+    background-color: aquamarine;
+    width: 180px;
+    box-shadow: 0px 0px 10px 10px #d9e1e2;
+    padding: 12px;
+    padding-left: 20px;
+}
+.drop-down:hover .drop-down-content{
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.bar>nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F8F9FA;
+    border-radius: 10px;
+    height: 15vh;
+    width: 1100px;
+    margin: 50px;
+    margin-left: 60px;
+}
+.home-content>h1{
+    font-family: marcellus;
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 160px;
+}
+.home-content{
+    margin-top: 100px;
+    text-align: center;
+}
+h3{
+    font-family: marcellus,cursive;
+    font-weight: 400;
+    font-size:  50px;
+    line-height: 60px;
+}
+p{
+    font-family: lato,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 29px;
+}
+.frontent-about{
+    height: 80vh;
+    color: #4d4d5c;
+    margin-top: 100px;
+}
+.skill{
+    height: 100vh;
+    color: #4d4d5c;
+    margin-top: 100px;
+}
